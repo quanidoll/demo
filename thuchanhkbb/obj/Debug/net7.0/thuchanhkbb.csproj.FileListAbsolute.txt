@@ -1,0 +1,14 @@
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\thuchanhkbb.GeneratedMSBuildEditorConfig.editorconfig
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\thuchanhkbb.AssemblyInfoInputs.cache
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\thuchanhkbb.AssemblyInfo.cs
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\thuchanhkbb.csproj.CoreCompileInputs.cache
+D:\PT PMQL\thuchanhkbb\bin\Debug\net7.0\thuchanhkbb.exe
+D:\PT PMQL\thuchanhkbb\bin\Debug\net7.0\thuchanhkbb.deps.json
+D:\PT PMQL\thuchanhkbb\bin\Debug\net7.0\thuchanhkbb.runtimeconfig.json
+D:\PT PMQL\thuchanhkbb\bin\Debug\net7.0\thuchanhkbb.dll
+D:\PT PMQL\thuchanhkbb\bin\Debug\net7.0\thuchanhkbb.pdb
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\thuchanhkbb.dll
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\refint\thuchanhkbb.dll
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\thuchanhkbb.pdb
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\thuchanhkbb.genruntimeconfig.cache
+D:\PT PMQL\thuchanhkbb\obj\Debug\net7.0\ref\thuchanhkbb.dll
