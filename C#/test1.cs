@@ -1,10 +1,9 @@
 public class Program{
     private static void Main(){
-        int a = 10;
-        float b = a;
-        Console.WriteLine("b= "+b);
         string str = "123";
-        int c = int.Parse(str);
-        Console.WriteLine("c= "+c);
+        int ketQua;
+        bool kiemTra = false;
+        kiemTra = int.TryParse(str,out(ketQua));
+        Console.WriteLine("Kết quả= "+ketQua);
     }
 }
