@@ -1,21 +1,25 @@
 public class Program{
     private static void Main(){
-        Console.WriteLine("Các kiểu dữ liệu trong C#: ");
-        const int a = 123;
-        Console.WriteLine("kiểu dữ liệu int: "+a);
-        const long b = 321;
-        Console.WriteLine("kiểu dữ liệu long: "+b);
-        const float c = -123;
-        Console.WriteLine("kiểu dữ liệu float: "+c);
-        const double d = -123456;
-        Console.WriteLine("kiểu dữ liệu double: "+d);
-        const decimal e = -321;
-        Console.WriteLine("kiểu dữ liệu decimal: "+e);
-        const bool g = false;
-        Console.WriteLine("Kiểu dữ liệu bool: "+g);
-        const char h = 'h';
-        Console.WriteLine("kiểu dữ liệu char: "+h);
-        const string f = "Nguyễn Minh Quân";
-        Console.WriteLine("kiểu dữ liệu string: "+f);
+       Console.WriteLine("Nhập vào 2 số cần tính: ");
+       Console.WriteLine("Nhập vào 2 số cần so sánh: ");
+       int a,b;
+       System.Console.WriteLine("a = ");
+       a = Convert.ToInt32(Console.ReadLine());
+       System.Console.WriteLine("b = ");
+       b = Convert.ToInt32(Console.ReadLine());
+       System.Console.WriteLine("Tổng của 2 số: {0} + {1} = {2}", a, b, a+b);
+       System.Console.WriteLine("Hiệu của 2 số: {0} - {1} = {2}", a, b, a-b);
+       System.Console.WriteLine("Thương của 2 số: {0} / {1} = {2}", a, b, a/b);
+       System.Console.WriteLine("Tích của 2 số: {0} * {1} = {2}", a, b, a*b);
+       System.Console.WriteLine("Số dư của 2 số: {0} % {1} = {2}", a, b, (a-b *(a/b)));
+       if (a == b) {
+        System.Console.WriteLine("Hai số bằng nhau");
+       }
+       if (a > b){
+        System.Console.WriteLine("Số a lớn hơn số b");
+       }
+       if (a < b){
+        System.Console.WriteLine("Số a bé hơn số b");
+       }
     }
 }
