@@ -1,0 +1,14 @@
+D:\PT PMQL\C#\ClassEmployee\bin\Debug\net7.0\ClassEmployee.exe
+D:\PT PMQL\C#\ClassEmployee\bin\Debug\net7.0\ClassEmployee.deps.json
+D:\PT PMQL\C#\ClassEmployee\bin\Debug\net7.0\ClassEmployee.runtimeconfig.json
+D:\PT PMQL\C#\ClassEmployee\bin\Debug\net7.0\ClassEmployee.dll
+D:\PT PMQL\C#\ClassEmployee\bin\Debug\net7.0\ClassEmployee.pdb
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ClassEmployee.GeneratedMSBuildEditorConfig.editorconfig
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ClassEmployee.AssemblyInfoInputs.cache
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ClassEmployee.AssemblyInfo.cs
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ClassEmployee.csproj.CoreCompileInputs.cache
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ClassEmployee.dll
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\refint\ClassEmployee.dll
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ClassEmployee.pdb
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ClassEmployee.genruntimeconfig.cache
+D:\PT PMQL\C#\ClassEmployee\obj\Debug\net7.0\ref\ClassEmployee.dll
