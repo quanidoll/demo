@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+</head>
+<body>
+    <h2>Nhap thong tin nhan vien:</h2>
+    <form asp-action="IndexEmployee">
+        Ho ten: <input type="text" name="hoTen" placeholder="hoTen">
+        Luong co ban: <input type="text" name="luongCoBan" placeholder="luongCoBan">
+        He so luong: <input type="text" name="heSoLuong" placeholder="heSoLuong">
+        Phu cap: <input type="text" name="phuCap" placeholder="phuCap">
+        <input type="submit" name="Tinh" id="Tinh">
+    </form>
+    <h1>@ViewBag.thongbao</h1>
+</body>
+</html>
