@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "khaibaobien", "C#\khaibaobien.csproj", "{40440E79-5ED3-4BE7-AF4E-22401754EEE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test", "test\test.csproj", "{5920BC08-FBFC-4E49-A021-B6EFD794E802}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thuchanhkbb", "thuchanhkbb\thuchanhkbb.csproj", "{683F7D68-B501-497F-A902-7B3AFF8619B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40440E79-5ED3-4BE7-AF4E-22401754EEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40440E79-5ED3-4BE7-AF4E-22401754EEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40440E79-5ED3-4BE7-AF4E-22401754EEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40440E79-5ED3-4BE7-AF4E-22401754EEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5920BC08-FBFC-4E49-A021-B6EFD794E802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5920BC08-FBFC-4E49-A021-B6EFD794E802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5920BC08-FBFC-4E49-A021-B6EFD794E802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5920BC08-FBFC-4E49-A021-B6EFD794E802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683F7D68-B501-497F-A902-7B3AFF8619B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683F7D68-B501-497F-A902-7B3AFF8619B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683F7D68-B501-497F-A902-7B3AFF8619B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683F7D68-B501-497F-A902-7B3AFF8619B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5395778B-5F5D-4C4E-B8E3-2751E10C7E91}
+	EndGlobalSection
+EndGlobal
