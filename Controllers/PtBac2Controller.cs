@@ -25,3 +25,4 @@ public class PtBac2Controller : Controller {
         return View();
     }
 }
+//Nguyen Minh Quan

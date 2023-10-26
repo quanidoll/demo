@@ -6,3 +6,4 @@ public class GiaiPtBac2 {
     public double x1 { get; set; }
     public double x2 { get; set; } 
 }
+//Nguyen Minh Quan
