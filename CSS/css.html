@@ -2,22 +2,33 @@
 <html>
 <head>
 <style>
-img {
-  opacity: 0.5;
+div {
+  background-color: #4CAF50;
+  padding: 10px;
 }
 
-img:hover {
-  opacity: 1.0;
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
 }
 </style>
 </head>
 <body>
 
-<h1>Nguyễn Minh Quân Image Transparency</h1>
-<p>2021050546 The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
-<img src="img_forest.jpg" alt="Forest" width="170" height="100">
-<img src="img_mountains.jpg" alt="Mountains" width="170" height="100">
-<img src="img_5terre.jpg" alt="Italy" width="170" height="100">
+<h1>Nguyễn Minh Quân Transparent Box</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first"><p>2021050546 opacity 0.1</p></div>
+<div class="second"><p>2021050546 opacity 0.3</p></div>
+<div class="third"><p>28/09/2002 opacity 0.6</p></div>
+<div><p>opacity 1 (default)</p></div>
 
 </body>
 </html>
