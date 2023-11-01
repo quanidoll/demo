@@ -2,22 +2,29 @@
 <html>
 <head>
 <style>
-.center {
-  padding: 70px 0;
-  border: 3px solid green;
-  text-align: center;
+div > p {
+  background-color: yellow;
 }
 </style>
 </head>
 <body>
 
-<h2>Nguyễn Minh Quân Center with padding and text-align</h2>
+<h2>Nguyễn Minh Quân Child Selector</h2>
 
-<p>2021050546 In this example, we use padding and text-align to center the div element both vertically and horizontally:</p>
+<p>The child selector (>) selects all elements that are the children of a specified element. 2021050546</p>
 
-<div class="center">
-  <p>I am vertically and horizontally centered.</p>
+<div>
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+  <section>
+    <!-- not Child but Descendant -->
+    <p>Paragraph 3 in the div (inside a section element).</p>
+  </section>
+  <p>Paragraph 4 in the div.</p>
 </div>
+
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
 
 </body>
 </html>
