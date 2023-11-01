@@ -2,15 +2,19 @@
 <html>
 <head>
 <style>
-div.ex1 {
-  width: 500px;
-  margin: auto;
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
   border: 3px solid #73AD21;
-}
+} 
 
-div.ex2 {
-  max-width: 500px;
-  margin: auto;
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
   border: 3px solid #73AD21;
 }
 </style>
@@ -19,13 +23,11 @@ div.ex2 {
 
 <h2>Nguyễn Minh Quân</h2>
 
-<div class="ex1">2021050546: 500px;</div>
-<br>
+<p>2021050546</p>
 
-<div class="ex2">NGuyễn Minh Quân: 500px;</div>
-
-<p><strong>Tip:</strong> Drag the browser window to smaller than 500px wide, to see the difference between 
-the two divs!</p>
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
 
 </body>
 </html>
