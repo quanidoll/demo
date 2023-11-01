@@ -10,7 +10,7 @@ public class PersonController : Controller
     [HttpPost]
     public IActionResult IndexPerson(Person ps)
     {
-        string strResult = ps.PersonID + "-" + ps.FullName;
+        string strResult = "Xin chao " + ps.PersonID + "-" + ps.FullName + "-" + ps.Address;
         ViewBag.capnhat = strResult;    
         return View();
     }

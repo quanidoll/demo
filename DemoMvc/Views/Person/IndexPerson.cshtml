@@ -1,11 +1,13 @@
 <form asp-action ="IndexPerson" >
     <p>      
-    <label><b>PersonID:</b></label>
+    <label><b>Nhập PersonID:</b></label>
     <input name="PersonID" type="text"></p>
     <p>      
-    <label><b>FullName:</b></label>
+    <label><b>Nhập họ tên: </b></label>
     <input  type="text" name="FullName"></p>
     <p>
-    <button >Send</button></p>
+    <label>Nhập địa chỉ: </label>
+    <input type="text" name="Address">
+    <input type="submit" value="Gửi dữ liệu">
   </form>
- <h1>@ViewBag.capnhat</h1>
+ <h1>Dữ liệu từ Controller gửi về là: @ViewBag.capnhat</h1>
