@@ -2,26 +2,34 @@
 <html>
 <head>
 <style>
-div ~ p {
-  background-color: yellow;
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 </style>
 </head>
 <body>
 
-<h2>Nguyễn Minh QUân General Sibling Selector</h2>
+<h2>Nguyễn Minh Quân Styling a link depending on state</h2>
 
-<p>2021050546 The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
-
-<p>Paragraph 1.</p>
-
-<div>
-  <p>Paragraph 2.</p>
-</div>
-
-<p>Paragraph 3.</p>
-<code>Some code.</code>
-<p>Paragraph 4.</p>
+<p><b><a href="default.asp" target="_blank">This is a link 2021050546</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
 
 </body>
 </html>
