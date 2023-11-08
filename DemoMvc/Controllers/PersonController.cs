@@ -12,7 +12,7 @@ public class PersonController : Controller
     {
         _context = context;
     }
-    public async Task<IActionResult> IndexPerson()
+    public async Task<IActionResult> Index()
     {
         var model = await _context.Person.ToListAsync();
         return View(model);
@@ -29,7 +29,7 @@ public class PersonController : Controller
         {
             _context.Add(person);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(IndexPerson));
+            return RedirectToAction(nameof(Index));
         }
         return View(person);
     }
@@ -72,7 +72,7 @@ public class PersonController : Controller
                     throw;
                 }
             }
-            return RedirectToAction(nameof(IndexPerson));
+            return RedirectToAction(nameof(Index));
         }
         return View(person);
     }
@@ -104,7 +104,7 @@ public class PersonController : Controller
             _context.Person.Remove(person);
         }
         await _context.SaveChangesAsync();
-        return RedirectToAction(nameof(IndexPerson));
+        return RedirectToAction(nameof(Index));
     }
     private bool PersonExists(string id)
     {
