@@ -9,5 +9,7 @@ namespace DemoMvc.Data
         {}
         public DbSet <Person> Person { get; set;} 
         public DbSet<Employee> Employee { get; set; } = default!;
+        public DbSet<DemoMvc.Models.DaiLy> DaiLy { get; set; } = default!;
+        public DbSet<DemoMvc.Models.HeThongPhanPhoi> HeThongPhanPhoi { get; set; } = default!;
     }
 }
