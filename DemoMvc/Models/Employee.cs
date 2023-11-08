@@ -1,4 +1,4 @@
-using DemoMvc.Person;
+using DemoMvc.Models;
 
 public class Employee : Person
 {
