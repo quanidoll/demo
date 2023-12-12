@@ -1,8 +1,8 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using DemoMvc.Models;
+using MVC.Models;
 
-namespace DemoMvc.Controllers;
+namespace MVC.Controllers;
 
 public class HomeController : Controller
 {
@@ -21,10 +21,6 @@ public class HomeController : Controller
     public IActionResult Privacy()
     {
         return View();
-    }
-    public string Demo()
-    {
-        return "casd";
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
